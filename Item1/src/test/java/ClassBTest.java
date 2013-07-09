@@ -13,8 +13,8 @@ public class ClassBTest {
 
 
     @Test
-    public void testClassA() {
-        //This is where we test the ClassA
+    public void testClassB() {
+        //This is where we test the ClassB
 
         String name = "Bob";
         ClassB b = ClassB.newInstance(name);
