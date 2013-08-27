@@ -8,7 +8,7 @@ package service.provider.framework;
  * To change this template use File | Settings | File Templates.
  */
 public class ProviderImpl implements Provider {
-    String name = "DogService";
+    private String name = "DogService";
 
     public void print() {
         System.out.print(name);
